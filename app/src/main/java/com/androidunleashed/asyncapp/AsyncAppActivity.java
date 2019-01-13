@@ -15,7 +15,7 @@ public class AsyncAppActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_async_app);
         seqView=(TextView) findViewById(R.id.sequenceview);
-        pb=(ProgressBar)findViewById(R.id.progress);
+        //pb=(ProgressBar)findViewById(R.id.progress);
         new PrintSequenceTask().execute(1);
     }
 
@@ -41,13 +41,12 @@ public class AsyncAppActivity extends Activity {
         @Override
         protected void onProgressUpdate(Integer... args) {
             seqView.setText(args[0].toString());
-            pb.setProgress(args[0]);
+            //pb.setProgress(args[0]);
         } 
 
         @Override
         protected void onPostExecute(Void result) {
             seqView.setText("Sequence numbers over");
-
         }
     }
 }

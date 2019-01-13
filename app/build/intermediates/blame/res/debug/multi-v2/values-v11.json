@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/MoaathAlrajab/Documents/TeachingDevCourses/MontclairTeaching/MOBILE_COMPUTING/Spring2017/Lectures/Unit8/Unit8-Code-Examples/AsyncApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "outputFile": "C:\\Users\\dremo\\AndroidStudioProjects\\AsyncApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "/Users/MoaathAlrajab/Documents/TeachingDevCourses/MontclairTeaching/MOBILE_COMPUTING/Spring2017/Lectures/Unit8/Unit8-Code-Examples/AsyncApp/app/src/main/res/values-v11/styles.xml",
+                    "source": "C:\\Users\\dremo\\AndroidStudioProjects\\AsyncApp\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
